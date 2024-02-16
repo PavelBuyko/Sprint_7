@@ -1,0 +1,53 @@
+{
+  "uid" : "902c6be45639750a",
+  "name" : "checkErrorResponseSameLogin",
+  "historyId" : "CreateCourrierPostTest:CreateCourrierPostTest#checkErrorResponseSameLogin",
+  "time" : {
+    "duration" : 241
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29c0cc6df95408ab",
+      "name" : "System out",
+      "source" : "29c0cc6df95408ab.txt",
+      "type" : "text/plain",
+      "size" : 13985
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "CreateCourrierPostTest"
+  }, {
+    "name" : "testClass",
+    "value" : "CreateCourrierPostTest"
+  }, {
+    "name" : "package",
+    "value" : "CreateCourrierPostTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "902c6be45639750a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="DeleteCourrierTest" time="0.664" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\Sprint_7\Sprint_7\target\test-classes;D:\Sprint_7\Sprint_7\target\classes;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\paveb\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\paveb\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\paveb\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\paveb\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\paveb\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\paveb\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\paveb\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\paveb\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\paveb\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\paveb\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\paveb\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\paveb\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\paveb\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\paveb\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\paveb\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\paveb\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\paveb\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\paveb\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\paveb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\paveb\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Amazon Corretto\jdk11.0.21_9\bin"/>
+    <property name="sun.java.command" value="C:\Users\paveb\AppData\Local\Temp\surefire1537661050468356365\surefirebooter-20240217020508969_3.jar C:\Users\paveb\AppData\Local\Temp\surefire1537661050468356365 2024-02-17T02-05-08_590-jvmRun1 surefire-20240217020508969_1tmp surefire_0-20240217020508969_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Sprint_7\Sprint_7\target\test-classes;D:\Sprint_7\Sprint_7\target\classes;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\paveb\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\paveb\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\paveb\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\paveb\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\paveb\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\paveb\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\paveb\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\paveb\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\paveb\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\paveb\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\paveb\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\paveb\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\paveb\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\paveb\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\paveb\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\paveb\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\paveb\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\paveb\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\paveb\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\paveb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\paveb\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\paveb"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files (x86)\Amazon Corretto\jdk11.0.21_9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Sprint_7\Sprint_7"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\paveb\AppData\Local\Temp\surefire1537661050468356365\surefirebooter-20240217020508969_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS"/>
+    <property name="user.name" value="paveb"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.21.9.1"/>
+    <property name="localRepository" value="C:\Users\paveb\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\paveb\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.4"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="D:\Sprint_7\Sprint_7"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Amazon Corretto\jdk11.0.21_9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Amazon Corretto\jdk11.0.21_9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Git LFS;C:\Program Files (x86)\IncrediBuild;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Users\paveb\AppData\Local\Microsoft\WindowsApps;C:\Users\paveb\AppData\Roaming\npm;C:\Users\paveb\AppData\Local\GitHubDesktop\bin;C:\Users\paveb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\paveb\.dotnet\tools;C:\pixel\platform-tools;C:\Program Files (x86)\apache-maven-3.9.5;C:\Program Files (x86)\Allure\allure-2.10.0\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, emulated-client"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.21+9-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="deleteCourrierWithoutID" classname="DeleteCourrierTest" time="0.203">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at DeleteCourrierTest.deleteCourrierWithoutID(DeleteCourrierTest.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "xneckXrREhq2SyFYIvE2Yg7tGRgunG",
+    "password": "ceuc5Oa5pmCxjLUeVnFl3ofAhDyvJa",
+    "firstName": "asldjqwe"
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:15 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=dbU9tnNUd7HQ+eFYbnxGFHnjsjlZiKE3caUxI1dHkmqJnaK7FZNvQuQ5UI31AULG; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835443192-5566517932649393246
+
+{
+    "ok": true
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "xneckXrREhq2SyFYIvE2Yg7tGRgunG",
+    "password": "ceuc5Oa5pmCxjLUeVnFl3ofAhDyvJa"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 13
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:15 GMT
+ETag: W/"d-1zlEda1NA2qmlg3CjAqAC5qiIjg"
+Set-Cookie: _yasc=pb9UGWxl8PAV3uJtLYy4qJNOTlB/HOn6uCyp1LJtQlRlfy67fT0vzlXzmjUgkmQR; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835516331-16828178162760112673
+
+{
+    "id": 266690
+}
+{
+    "id": 266690
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Access-Control-Allow-Origin: *
+Content-Length: 35
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:15 GMT
+ETag: W/"23-Yvz185z7FSkcImycPnr136En0mc"
+Set-Cookie: _yasc=shJf27RtWidDoW3+4VdS8AoLhj0imbU6BNmO+uxQDBNLAHna7w8i/oso6xiCsuxJ/w==; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835561517-12715630423267665490
+
+{
+    "code": 404,
+    "message": "Not Found."
+}
+HTTP/1.1 404 Not Found
+Access-Control-Allow-Origin: *
+Content-Length: 35
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:15 GMT
+ETag: W/"23-Yvz185z7FSkcImycPnr136En0mc"
+Set-Cookie: _yasc=shJf27RtWidDoW3+4VdS8AoLhj0imbU6BNmO+uxQDBNLAHna7w8i/oso6xiCsuxJ/w==; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835561517-12715630423267665490
+
+{
+    "code": 404,
+    "message": "Not Found."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteNotExistingCourrier" classname="DeleteCourrierTest" time="0.248">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "AlWcWfYW4JqngRVVrTN76gJgQnzKQr",
+    "password": "aMH12U7gkPwxKTGUapjHiAuqZspY84",
+    "firstName": "asldjqwe"
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:15 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=Av2MI3xthWhJYB/AMyDjBNjQ5aLkwjFc5NBpoo+Ilbcs+PY9HHwBeov82xPgSb3d; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835676918-14358073998512450927
+
+{
+    "ok": true
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "AlWcWfYW4JqngRVVrTN76gJgQnzKQr",
+    "password": "aMH12U7gkPwxKTGUapjHiAuqZspY84"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 13
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:15 GMT
+ETag: W/"d-SbCdPSDUATcYfNtOR6/lQErL2+Q"
+Set-Cookie: _yasc=L2Pd/uaHgRitMCFko/nVhZhFmJPTteIXs+E6Rq0ACYfXFcqz+hvChtw8aKo2fJPV; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835774364-4351434771093239978
+
+{
+    "id": 266691
+}
+{
+    "id": 266691
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/000000
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Access-Control-Allow-Origin: *
+Content-Length: 64
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:15 GMT
+ETag: W/"40-tLkp/o3TzLGA5pEmOZ4MEpfo3Lo"
+Set-Cookie: _yasc=5h7lPgl+wxdw96TLtOk66+4ORmTlQqQrLT9oKKD/4oK3TdKvyRXo7GHjiwm7Q0S1; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835842241-14407149983873010129
+
+{
+    "code": 404,
+    "message": "Курьера с таким id нет."
+}
+HTTP/1.1 404 Not Found
+Access-Control-Allow-Origin: *
+Content-Length: 64
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:15 GMT
+ETag: W/"40-tLkp/o3TzLGA5pEmOZ4MEpfo3Lo"
+Set-Cookie: _yasc=5h7lPgl+wxdw96TLtOk66+4ORmTlQqQrLT9oKKD/4oK3TdKvyRXo7GHjiwm7Q0S1; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835842241-14407149983873010129
+
+{
+    "code": 404,
+    "message": "Курьера с таким id нет."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteCourrier" classname="DeleteCourrierTest" time="0.21">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "QCqMFHx4FqI185pfxKyEUXwN7nUNGM",
+    "password": "88q2SENTJjfqPMcSKjT9TaVxBz7u4S",
+    "firstName": "asldjqwe"
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:15 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=q6TkIR2OAAGtxXoCyMeecpPAw9UOsqy3Fp6ROzqY7eF6EnW2VDcGA6x0gXHB3gqSNw==; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835917040-16502236585212133364
+
+{
+    "ok": true
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "QCqMFHx4FqI185pfxKyEUXwN7nUNGM",
+    "password": "88q2SENTJjfqPMcSKjT9TaVxBz7u4S"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 13
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:16 GMT
+ETag: W/"d-gg8dOFg3i/4Ui7GXgDKJFwgYvcc"
+Set-Cookie: _yasc=IbdL4wHKFLm0QEbBvqZ+dJdxr/2w4+sLUwHk/1AeaUI7NpJwNuNF5ho2t5gEw4gonQ==; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:15 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124835996585-14790490462549113002
+
+{
+    "id": 266692
+}
+{
+    "id": 266692
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/266692
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Feb 2024 23:07:16 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=0CVYwcozmeJ3+O4sW2DH2xv0D9dMK8G0+d61ODfGTEOT2La3WWvM7on/uOoT6hbw; domain=.praktikum-services.ru; path=/; expires=Mon, 13 Feb 2034 23:07:16 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1708124836047185-9057396169547180018
+
+{
+    "ok": true
+}
+]]></system-out>
+  </testcase>
+</testsuite>

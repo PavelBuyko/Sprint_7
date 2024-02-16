@@ -1,0 +1,53 @@
+{
+  "uid" : "e3975034b08edc50",
+  "name" : "incorrectDataLoginTest",
+  "historyId" : "CourrierLoginPostTest:CourrierLoginPostTest#incorrectDataLoginTest",
+  "time" : {
+    "duration" : 345
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "48b9897c0e44a6d9",
+      "name" : "System out",
+      "source" : "48b9897c0e44a6d9.txt",
+      "type" : "text/plain",
+      "size" : 6507
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "CourrierLoginPostTest"
+  }, {
+    "name" : "testClass",
+    "value" : "CourrierLoginPostTest"
+  }, {
+    "name" : "package",
+    "value" : "CourrierLoginPostTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3975034b08edc50.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "b72f2d2f60d70c5a",
+  "name" : "orderColorTest[2]",
+  "historyId" : "MakeOrderPostTest:MakeOrderPostTest#orderColorTest[2]",
+  "time" : {
+    "duration" : 119
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c091920e32401667",
+      "name" : "System out",
+      "source" : "c091920e32401667.txt",
+      "type" : "text/plain",
+      "size" : 287
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "MakeOrderPostTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MakeOrderPostTest"
+  }, {
+    "name" : "package",
+    "value" : "MakeOrderPostTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b72f2d2f60d70c5a.json",
+  "parameterValues" : [ ]
+}

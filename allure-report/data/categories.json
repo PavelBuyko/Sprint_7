@@ -1,0 +1,84 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected status code <400> but was <504>.\n",
+      "children" : [ {
+        "name" : "noPasswordAuthTest",
+        "uid" : "a91cc1cd5174e184",
+        "parentUid" : "1d8f1f7a133e17931abd80cead18da26",
+        "status" : "failed",
+        "time" : {
+          "duration" : 60510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d8f1f7a133e17931abd80cead18da26"
+    }, {
+      "name" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "children" : [ {
+        "name" : "tryCreateCourrierWithoutFirstNameField",
+        "uid" : "4fd36b4572ac125c",
+        "parentUid" : "f200dde3256cabb3c6b86e62216cfc0b",
+        "status" : "failed",
+        "time" : {
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tryCreateCourrierWithoutFirstname",
+        "uid" : "3ba0eb9a0ea21a7",
+        "parentUid" : "f200dde3256cabb3c6b86e62216cfc0b",
+        "status" : "failed",
+        "time" : {
+          "duration" : 230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f200dde3256cabb3c6b86e62216cfc0b"
+    }, {
+      "name" : "1 expectation failed.\nExpected status code <400> but was <404>.\n",
+      "children" : [ {
+        "name" : "deleteCourrierWithoutID",
+        "uid" : "2261ac99a20b5f23",
+        "parentUid" : "b931fa9792f83957c43bec6dbef5410d",
+        "status" : "failed",
+        "time" : {
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b931fa9792f83957c43bec6dbef5410d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $",
+      "children" : [ {
+        "name" : "tryCreateCourrierWithoutPasswordField",
+        "uid" : "67f241608e5400fd",
+        "parentUid" : "ba79318366edea7cbdd4b6dcc9dde843",
+        "status" : "broken",
+        "time" : {
+          "duration" : 60195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba79318366edea7cbdd4b6dcc9dde843"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

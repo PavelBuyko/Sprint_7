@@ -1,0 +1,415 @@
+{
+  "MakeOrderPostTest:MakeOrderPostTest#orderColorTest[0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd42fd591f57daa2",
+      "status" : "passed",
+      "time" : {
+        "duration" : 160
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#createSameCourrier" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2525d2d182ee58c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 248
+      }
+    } ]
+  },
+  "MakeOrderPostTest:MakeOrderPostTest#orderColorTest[2]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b72f2d2f60d70c5a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 119
+      }
+    } ]
+  },
+  "CourrierLoginPostTest:CourrierLoginPostTest#emptyPasswordAuthTest" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de7f2db819e37447",
+      "status" : "passed",
+      "time" : {
+        "duration" : 369
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#checkResponse" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8afc47ca37db59e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 188
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#tryCreateCourrierWithoutFirstname" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ba0eb9a0ea21a7",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "duration" : 230
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#usualCourrierCreate" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "baa4ad06e1c61106",
+      "status" : "passed",
+      "time" : {
+        "duration" : 185
+      }
+    } ]
+  },
+  "CourrierLoginPostTest:CourrierLoginPostTest#incorrectDataLoginTest" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3975034b08edc50",
+      "status" : "passed",
+      "time" : {
+        "duration" : 345
+      }
+    } ]
+  },
+  "CourrierLoginPostTest:CourrierLoginPostTest#emptyLoginAuthTest" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ff12c832c2bc34f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 339
+      }
+    } ]
+  },
+  "DeleteCourrierTest:DeleteCourrierTest#deleteNotExistingCourrier" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff47aeffdbdf94ad",
+      "status" : "passed",
+      "time" : {
+        "duration" : 248
+      }
+    } ]
+  },
+  "MakeOrderPostTest:MakeOrderPostTest#orderColorTest[1]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "129215eea8edffab",
+      "status" : "passed",
+      "time" : {
+        "duration" : 106
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#tryCreateCourrierWithoutPasswordField" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67f241608e5400fd",
+      "status" : "broken",
+      "statusDetails" : "java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $",
+      "time" : {
+        "duration" : 60195
+      }
+    } ]
+  },
+  "MakeOrderPostTest:MakeOrderPostTest#orderColorTest[3]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "629fa65a59ea8941",
+      "status" : "passed",
+      "time" : {
+        "duration" : 145
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#tryCreateCourrierWithoutPassword" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92e02cdb29ff616a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 239
+      }
+    } ]
+  },
+  "DeleteCourrierTest:DeleteCourrierTest#deleteCourrier" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88a5ec8e250416b5",
+      "status" : "passed",
+      "time" : {
+        "duration" : 210
+      }
+    } ]
+  },
+  "DeleteCourrierTest:DeleteCourrierTest#deleteCourrierWithoutID" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2261ac99a20b5f23",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <404>.\n",
+      "time" : {
+        "duration" : 203
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#tryCreateCourrierWithoutNameField" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0bda3d4eff897f5",
+      "status" : "passed",
+      "time" : {
+        "duration" : 172
+      }
+    } ]
+  },
+  "CourrierLoginPostTest:CourrierLoginPostTest#noLoginAuthTest" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "def3d10d32a367a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 426
+      }
+    } ]
+  },
+  "OrderListGetTest:OrderListGetTest#getOrderlistAll" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99a5b82041fba98d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 18676
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#checkErrorResponseSameLogin" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "902c6be45639750a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 241
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#tryCreateCourrierWithoutFirstNameField" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4fd36b4572ac125c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "duration" : 260
+      }
+    } ]
+  },
+  "CourrierLoginPostTest:CourrierLoginPostTest#baseLoginTest" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56f4ca069b540121",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1861
+      }
+    } ]
+  },
+  "CourrierLoginPostTest:CourrierLoginPostTest#noPasswordAuthTest" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a91cc1cd5174e184",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <504>.\n",
+      "time" : {
+        "duration" : 60510
+      }
+    } ]
+  },
+  "CreateCourrierPostTest:CreateCourrierPostTest#tryCreateCourrierWithoutName" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa4ab858bb00d666",
+      "status" : "passed",
+      "time" : {
+        "duration" : 191
+      }
+    } ]
+  }
+}

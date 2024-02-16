@@ -1,0 +1,53 @@
+{
+  "uid" : "9ff12c832c2bc34f",
+  "name" : "emptyLoginAuthTest",
+  "historyId" : "CourrierLoginPostTest:CourrierLoginPostTest#emptyLoginAuthTest",
+  "time" : {
+    "duration" : 339
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "48b9897c0e44a6d9",
+      "name" : "System out",
+      "source" : "48b9897c0e44a6d9.txt",
+      "type" : "text/plain",
+      "size" : 6507
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "CourrierLoginPostTest"
+  }, {
+    "name" : "testClass",
+    "value" : "CourrierLoginPostTest"
+  }, {
+    "name" : "package",
+    "value" : "CourrierLoginPostTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ff12c832c2bc34f.json",
+  "parameterValues" : [ ]
+}
